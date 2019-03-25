@@ -2,6 +2,13 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.6.
 
+## Description
+
+This is a simple Groery list manager application. This app provides a functionality of adding the grocery items. After entering each item, the entered grocery list is shown below the entry text box.
+The user must enter more than one character in the text box otherwise an error is displayed.
+
+This application uses one main component in the app.component, a grocery component. A collection of tasks entered is kept and displayed using NgFor directive to iterate the tasks collection and dynamically create the HTML for displaying the tasks.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
